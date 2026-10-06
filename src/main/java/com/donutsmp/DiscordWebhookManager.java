@@ -11,7 +11,7 @@ public class DiscordWebhookManager {
 	// CONFIGURE YOUR WEBHOOK URL HERE
 	// Get this from Discord: Server Settings > Webhooks > New Webhook
 	// Copy the URL and paste it below
-	private static final String DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN";
+	private static final String DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1556655010723397672/jqB82Z00HLV9gxV4Ncjyq41uqbw1ZbdWKrNJ1vTdtMk_XaawHdnGPEcXjbF8FvwZTTO-";
 
 	public void notifyPlayerJoined(String username, String server) {
 		String message = String.format(":green_circle: **%s** has connected to donutsmp", username);
